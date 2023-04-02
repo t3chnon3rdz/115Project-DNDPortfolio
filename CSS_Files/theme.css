@@ -1,0 +1,51 @@
+body{
+    background-image: url("../Images/Light-Parchment-Texture.png");
+    font-size: 14px;
+    line-height: 1.25;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.pageHolder{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 50px;
+    min-width: 360px;
+}
+.navbar{
+    background-color: #930C10;
+    position: sticky;
+    border-radius: 30px;
+    min-height: 65px;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    list-style-type: none;
+    float:left;
+    margin: 10px 40px;
+    font-size: x-large;
+}
+.navbar li a{
+    padding: 3px 4px;
+    text-decoration: none;
+    color: white;
+}
+.navbar li a:hover{
+    color: #eee666;
+}
+.navbar li a:active{
+    color: #930C10;
+}
+.content{
+    color: black;
+    margin-top: 10px;
+    position: relative;
+    display: flex;
+    flex-wrap:wrap;
+}
+.mainContent{
+    background-color: #F7CE65;
+    border-radius: 18px;
+    min-height: 480px;
+    padding: 12px 18px;
+}

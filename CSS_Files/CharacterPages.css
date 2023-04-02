@@ -1,0 +1,37 @@
+p{
+    font-size: 16px;
+}
+h2{
+    font-size: 36px;
+}
+h3{
+    font-size: 24px;
+}
+.funFacts{
+    font-size: 16px;
+}
+.sideSummary{
+    margin: 5px;
+    box-shadow: 0 2px 4px 0 black;
+    float: right;
+}
+table{
+    border: 2px solid;
+    border-color: #930C10;
+    border-collapse:collapse ;
+    width: 338px;
+}
+th, td{
+    border: 2px solid;
+    border-color: #930C10;
+}
+.photoSize{
+    width: 338px;
+    vertical-align: bottom;
+}
+.col1{
+    width: 30%;
+}
+.col2{
+    width: 70%;
+}

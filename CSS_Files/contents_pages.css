@@ -1,0 +1,38 @@
+h2{
+    font-size: 48px;
+}
+h3{
+    font-size: 36px;
+}
+h4{
+    padding: 0 5px;
+}
+p{
+    padding: 0 5px;
+}
+.characterCell{
+    width: 338px;
+    box-shadow: 0 2px 4px 0 black;
+    transition: 0.3s;
+    float: left;
+    margin: 55px;
+}
+.characterCell:hover{
+    box-shadow: 0 4px 8px 0 black;
+}
+.characterCell a img{
+    width: 338px;
+}
+.campaignCell{
+    width: 338px;
+    box-shadow: 0 2px 4px 0 black;
+    transition: 0.3s;
+    float: right;
+    margin: 55px;
+}
+.campaignCell:hover{
+    box-shadow: 0 4px 8px 0 black;
+}
+.campaignCell a img{
+    width: 338px;
+}
